@@ -15,14 +15,4 @@
     <name>microservice_service_api</name>
     <description>Api of the services</description>
 
-    <dependencies>
-        <!-- Internal dependencies start -->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>microservice_service_impl</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <!-- Internal dependencies end -->
-    </dependencies>
 </project>
