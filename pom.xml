@@ -23,6 +23,7 @@
 	<modules>
 		<module>microservice-controller</module>
 		<module>microservice-service-api</module>
+		<module>microservice-service</module>
 	</modules>
 
 	<dependencies>
