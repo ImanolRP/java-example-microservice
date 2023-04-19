@@ -1,13 +1,17 @@
 package com.example.microservice;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-@Service("dummyServiceImpl")
+@Service
 public class DummyServiceImpl implements DummyService {
+
+  @Autowired
+  DummyRepository dummyRepositoryImpl;
 
   @Override
   public String getDummy() {
-    return "Dummy";
+    return dummyRepositoryImpl.getDummy();
   }
 
 }
