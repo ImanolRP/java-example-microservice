@@ -19,7 +19,7 @@
         <!-- Internal dependencies start -->
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>microservice_service</artifactId>
+            <artifactId>microservice_service_impl</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

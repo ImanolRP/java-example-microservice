@@ -9,10 +9,10 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>microservice_service</artifactId>
+    <artifactId>microservice_service_impl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>microservice_service</name>
+    <name>microservice_service_impl</name>
     <description>Implementation of the services</description>
 
     <dependencies>
