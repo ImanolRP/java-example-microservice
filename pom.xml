@@ -25,6 +25,7 @@
 		<module>microservice-service-api</module>
 		<module>microservice-service-impl</module>
 		<module>microservice-repository</module>
+		<module>microservice-model</module>
 	</modules>
 
 	<dependencies>
