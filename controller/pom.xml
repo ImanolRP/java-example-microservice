@@ -8,17 +8,17 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>microservice_controller</artifactId>
+	<artifactId>controller</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
-	<name>microservice_controller</name>
+	<name>controller</name>
 	<description>Controller of the microservice</description>
 
 	<dependencies>
 		<!-- Internal dependencies start -->
 		<dependency>
 			<groupId>com.example</groupId>
-			<artifactId>microservice_service</artifactId>
+			<artifactId>service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 			<scope>compile</scope>
 		</dependency>

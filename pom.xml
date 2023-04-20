@@ -21,10 +21,10 @@
 	</properties>
 
 	<modules>
-		<module>microservice-controller</module>
-		<module>microservice-service</module>
-		<module>microservice-repository</module>
-		<module>microservice-model</module>
+		<module>controller</module>
+		<module>service</module>
+		<module>repository</module>
+		<module>model</module>
 	</modules>
 
 	<dependencies>
