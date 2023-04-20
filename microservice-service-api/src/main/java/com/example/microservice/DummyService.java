@@ -2,6 +2,8 @@ package com.example.microservice;
 
 public interface DummyService {
 
-    String getDummy();
+  String getPlainDummy();
+
+  String getDummyById(String id);
 
 }

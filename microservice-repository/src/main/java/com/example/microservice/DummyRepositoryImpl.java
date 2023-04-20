@@ -1,12 +1,9 @@
 package com.example.microservice;
 
-import org.springframework.stereotype.Repository;
-
-@Repository
-public class DummyRepositoryImpl implements DummyRepository {
+public class DummyRepositoryImpl implements DummyRepositoryCustom {
 
   @Override
-  public String getDummy() {
+  public String getPlainDummy() {
     return "Dummy";
   }
 

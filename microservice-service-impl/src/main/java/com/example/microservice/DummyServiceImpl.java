@@ -10,8 +10,13 @@ public class DummyServiceImpl implements DummyService {
   DummyRepository dummyRepositoryImpl;
 
   @Override
-  public String getDummy() {
-    return dummyRepositoryImpl.getDummy();
+  public String getPlainDummy() {
+    return dummyRepositoryImpl.getPlainDummy();
+  }
+
+  @Override
+  public String getDummyById(String id) {
+    return dummyRepositoryImpl.getById(id).getId();
   }
 
 }

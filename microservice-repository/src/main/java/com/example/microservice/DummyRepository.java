@@ -1,7 +1,10 @@
 package com.example.microservice;
 
-public interface DummyRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
-  String getDummy();
+@Repository
+public interface DummyRepository
+    extends JpaRepository<DummyEntity, String>, DummyRepositoryCustom {
 
 }
