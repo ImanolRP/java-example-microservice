@@ -22,8 +22,7 @@
 
 	<modules>
 		<module>microservice-controller</module>
-		<module>microservice-service-api</module>
-		<module>microservice-service-impl</module>
+		<module>microservice-service</module>
 		<module>microservice-repository</module>
 		<module>microservice-model</module>
 	</modules>

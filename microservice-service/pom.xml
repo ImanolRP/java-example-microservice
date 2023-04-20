@@ -9,20 +9,14 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>microservice_service_impl</artifactId>
+    <artifactId>microservice_service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
-    <name>microservice_service_impl</name>
-    <description>Implementation of the services</description>
+    <name>microservice_service</name>
+    <description>Definition and implementation of the services</description>
 
     <dependencies>
         <!-- Internal dependencies start -->
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>microservice_service_api</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>microservice_repository</artifactId>

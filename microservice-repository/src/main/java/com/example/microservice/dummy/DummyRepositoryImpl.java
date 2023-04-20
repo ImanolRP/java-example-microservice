@@ -1,4 +1,4 @@
-package com.example.microservice;
+package com.example.microservice.dummy;
 
 public class DummyRepositoryImpl implements DummyRepositoryCustom {
 

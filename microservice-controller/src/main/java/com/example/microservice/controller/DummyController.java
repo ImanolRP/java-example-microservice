@@ -1,6 +1,7 @@
 package com.example.microservice.controller;
 
-import com.example.microservice.DummyService;
+
+import com.example.microservice.dummy.DummyService;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;

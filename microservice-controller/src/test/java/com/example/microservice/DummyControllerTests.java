@@ -15,9 +15,9 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @SpringBootTest
 @AutoConfigureMockMvc
 @SqlGroup({
-    @Sql(value = "classpath:sqldummycontroller/reset-cases.sql",
+    @Sql(value = "classpath:sql/dummy-controller/reset-cases.sql",
         executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD),
-    @Sql(value = "classpath:sqldummycontroller/create-cases.sql",
+    @Sql(value = "classpath:sql/dummy-controller/create-cases.sql",
         executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)})
 class DummyControllerTests {
 

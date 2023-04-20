@@ -1,4 +1,4 @@
-package com.example.microservice;
+package com.example.microservice.dummy;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
